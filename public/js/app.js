@@ -649,7 +649,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("p", [_vm._v("Home")])])
+    return _c("div", [
+      _c(
+        "h1",
+        { staticClass: "font-normal text-3xl text-grey-darkest leading-none" },
+        [_vm._v("Full Logo")]
+      )
+    ])
   }
 ]
 render._withStripped = true
